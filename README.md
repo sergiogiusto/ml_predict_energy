@@ -1,0 +1,2 @@
+The jupyter notebook contains a solution that allows the forecasting of energy consumption in Italy for the next 24 hours. Additional features have been added to the dataset to allow the model to better generalize the alterations given by seasonality and consumption peaks.
+The model uses three temporal blocks characterized by convolutional layers and bidirectional LSTM that are then processed by dense layers with a final level of attention with sigmoidal activation.
